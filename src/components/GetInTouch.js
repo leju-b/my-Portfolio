@@ -12,7 +12,7 @@ const GetInTouch = () => {
       
       <div className="social-media">
         <div className="social-icon">
-          <a href="mailto:your.email@example.com">
+          <a href="mailto:iamleju02@gmail.com">
             <i className="fas fa-envelope"></i>
             <span>Email</span>
           </a>
