@@ -1,9 +1,9 @@
-// src/components/Navbar.js
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,18 +20,24 @@ const Navbar = () => {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
       <div className="navbar-left">
-         <strong><span>Spider</span>.</strong>
+        <strong><span>Spider</span>.</strong>
       </div>
       <div className="navbar-right">
-        
-        <ul className="navbar-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          {/* <li><a href="#projects">Projects</a></li> */}
-          <li><a href="#getintouch">Get In Touch</a></li>
+        <div className="hamburger-icon" onClick={toggleMenu}>
+          <i className="fas fa-bars"></i>
+        </div>
+        <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
+          <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+          <li><a href="#about" onClick={toggleMenu}>About</a></li>
+          {/* <li><a href="#projects" onClick={toggleMenu}>Projects</a></li> */}
+          <li><a href="#getintouch" onClick={toggleMenu}>Get In Touch</a></li>
         </ul>
       </div>
     </nav>

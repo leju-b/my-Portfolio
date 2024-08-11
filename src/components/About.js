@@ -1,22 +1,28 @@
-// src/components/About.js
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
 
 const About = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
-    <>
-      <section id="about">
-        <h2>Hello <span>World</span>🌍, Nice to meet you!</h2>
-        <p>
-          I’m a Computer Science and Engineering student with a keen interest in DevOps and Cybersecurity. Based in Kerala, India, I’m passionate about continuously expanding my knowledge and integrating cutting-edge technologies to make a meaningful impact.
-          My journey into the tech world is driven by a fascination with how systems work and a desire to enhance their security and efficiency. I thrive on the challenge of optimizing development workflows and fortifying digital environments against evolving threats.
-          As a lifelong learner, I’m always exploring new tools, methodologies, and best practices in DevOps and cybersecurity. I believe in the power of continuous learning and staying ahead in an ever-changing landscape to contribute effectively to the tech community.
-          My goal is to harness my skills to not only solve complex problems but also to drive innovation and growth in the industry. Whether it's improving deployment pipelines, enhancing security measures, or collaborating on ambitious projects, I’m excited to bring my expertise and enthusiasm to the table.
-          <br /><br />
-          Let’s connect and explore how we can push the boundaries of technology together. I’m always open to new opportunities, collaborations, and discussions that challenge and inspire me.
-        </p>
-        <h3>What I'm Doing?</h3>
-        <div className="box-container">
+    <section id="about">
+      <h2>Hello <span>World</span>🌍, Nice to meet you!</h2>
+      <p className={`about-text ${isExpanded ? 'expanded' : 'collapsed'}`}>
+      I’m a Computer Science and Engineering student from Kerala, India, with a deep interest in DevOps and Cybersecurity. My passion lies in expanding my knowledge and integrating advanced technologies to make a meaningful impact. Driven by a fascination with systems and a commitment to enhancing security and efficiency, I thrive on optimizing development workflows and fortifying digital environments.
+
+As a lifelong learner, I continuously explore new tools and best practices in DevOps and cybersecurity to stay ahead in an evolving landscape. My goal is to leverage my skills to solve complex problems and drive innovation in the tech industry. I’m excited about improving deployment pipelines, enhancing security measures, and collaborating on ambitious projects.
+
+Let’s connect and explore how we can push the boundaries of technology together. I’m always open to new opportunities, collaborations, and discussions that challenge and inspire me.
+      </p>
+      <button onClick={toggleExpansion} className="read-more-btn">
+        {isExpanded ? 'Read Less' : 'Read More'}
+      </button>
+      <h3>What I'm Doing?</h3>
+      <div className="box-container">
         <div className="box">
           <h3>DevOps</h3>
           <p>I enjoy improving the speed and quality of delivery, automate, CI/CD.</p>
@@ -30,8 +36,7 @@ const About = () => {
           <p>Like doing it, to play around web technologies, to understand SDLC.</p>
         </div>
       </div>
-      </section>
-    </>
+    </section>
   );
 };
 

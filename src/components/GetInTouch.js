@@ -18,39 +18,45 @@ const GetInTouch = () => {
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/lejub02" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
             <span>LinkedIn</span>
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter"></i>
+          <a href="https://x.com/Leju_b02" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-x-twitter"></i>
             <span>Twitter</span>
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/leju-b" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
             <span>GitHub</span>
           </a>
         </div>
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
             <span>Instagram</span>
           </a>
-        </div>
+        </div> */}
         <div className="social-icon">
-          <a href="https://dev.to/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://dev.to/lejub" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-dev"></i>
             <span>Dev.to</span>
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://medium.com/@your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-medium"></i>
             <span>Medium</span>
+          </a>
+        </div>
+        <div className="social-icon">
+          <a href="https://www.goodreads.com/user/show/178288148" target="_blank" rel="noopener noreferrer"> 
+            <i class="fab fa-goodreads"></i>
+            <span>Goodreads</span>
           </a>
         </div>
         {/* Add more social icons as needed */}
