@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+/* src/App.css */
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* src/App.css */
+
+/* Ensure the scrollbar is hidden on all elements */
+html, body {
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
+  overflow-y: scroll; /* Allows scrolling but hides scrollbar */
+}
+
+body {
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+nav a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+section {
+  padding: 4rem 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about {
+  background-color: rgb(249, 249, 249);
+}
+
+#projects {
+  background-color: #ccc;
+}
+
+#getintouch {
+  background-color: white;
 }

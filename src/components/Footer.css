@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+
+#footer {
+    text-align: center; /* Centers the text and icons */
+    padding: 5px; /* Padding around the footer */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align to the bottom */
+  }
+  
+  .footer-content {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .footer-symbol {
+    font-family: 'Poppins', sans-serif; /* Font style */
+    font-size: 1rem; /* Font size for symbols */
+  }

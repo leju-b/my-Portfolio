@@ -1,0 +1,67 @@
+/* src/components/About.css */
+
+#about {
+    text-align: center; /* Centers the text */
+    padding: 60px 80px; /* Adds padding around the section */
+   
+  }
+  
+  #about h2 {
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 700; /* Makes the font bold */
+    font-size: 2rem; /* Adjusts the font size */
+    margin-bottom: 10px; /* Adds space below the heading */
+  }
+  
+  #about h2 span {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  #about p {
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 400; /* Sets a normal font weight */
+    font-size: 1rem; /* Adjusts the font size */
+    color: #333; /* Sets a dark color for the text */
+    padding: 0 30px;
+  }
+  
+  /* Box container styles */
+  .box-container {
+    display: flex; /* Aligns the boxes in a row */
+    flex-direction: row; /* Stacks boxes vertically */
+    gap: 20px; /* Space between each box */
+    align-items: center; /* Centers the boxes horizontally */
+    margin: 40px auto; /* Adds space around the boxes */
+    padding: 0 20px; /* Adds padding around the container */
+    max-width: 1200px; /* Sets a maximum width */
+  }
+  
+  /* Box styles */
+  .box {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Adds padding inside the box */
+    width: 100%; /* Full width of the container */
+    max-width: 400px; /* Limits the maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    height: 200px;
+  }
+  
+  .box h3 {
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 600; /* Semi-bold font */
+    font-size: 1.5rem; /* Adjusts the font size */
+    margin-bottom: 10px; /* Adds space below the heading */
+    color: #ff6347;
+  }
+  
+  .box p {
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 400; /* Sets a normal font weight */
+    font-size: 1rem; /* Adjusts the font size */
+    color: #666; /* Sets a lighter color for the text */
+  }
+  h3 {
+    font-size: x-large;
+  }

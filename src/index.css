@@ -5,7 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
+/* In your global CSS file (e.g., src/index.css) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* src/App.css or global CSS */
+
+/* Hide the scrollbar but keep scroll functionality */
+body {
+  overflow: hidden;
+}
+
+body:hover, body:focus-within {
+  overflow-y: scroll;
+  overflow-x: hidden; /* Ensure horizontal scrolling is disabled */
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

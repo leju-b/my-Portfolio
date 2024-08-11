@@ -1,0 +1,62 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem; /* Reduce the height of the navbar */
+    background-color: #000000;;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Black with some transparency */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left:2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .navbar-left span {
+        color: #ff6347;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Add spacing between links */
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff6347;
+  }
+  
+  .navbar-right {
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    color: rgb(185, 46, 46);
+  }
+  

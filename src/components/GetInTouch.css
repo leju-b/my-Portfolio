@@ -1,0 +1,63 @@
+/* src/components/GetInTouch.css */
+
+#getintouch {
+    text-align: center; /* Centers the text */
+    padding: 60px 20px; /* Adds padding around the section */
+    background-color: #f4f4f4; /* Optional: adds a background color */
+    border-radius: 8px; /* Optional: rounds the corners of the section */
+    margin-bottom: 80px;
+  }
+  
+  #getintouch h2 {
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 700; /* Makes the font bold */
+    font-size: 2rem; /* Adjusts the font size */
+    margin-bottom: 10px; /* Adds space below the heading */
+  }
+  
+  #getintouch p {
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 400; /* Sets a normal font weight */
+    font-size: 1rem; /* Adjusts the font size */
+    color: #333; /* Sets a dark color for the text */
+    margin-bottom: 30px; /* Adds space below the paragraph */
+  }
+  
+  #getintouch p a {
+    text-decoration: none; /* Removes underline from the link */
+    color: #333; /* Sets color for the icon */
+  }
+  
+  #getintouch p i {
+    font-size: 1.5rem; /* Adjusts the size of the mail icon */
+    margin-right: 5px; /* Adds space between the icon and text */
+  }
+  
+  .social-media {
+    display: flex; /* Aligns the icons in a row */
+    justify-content: center; /* Centers the icons horizontally */
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+    gap: 20px; /* Space between each icon */
+  }
+  
+  .social-icon {
+    text-align: center; /* Centers the text and icon within each box */
+  }
+  
+  .social-icon a {
+    text-decoration: none; /* Removes underline from links */
+    color: #333; /* Sets color for text and icons */
+  }
+  
+  .social-icon i {
+    font-size: 2rem; /* Adjusts the size of the icons */
+    margin-bottom: 5px; /* Adds space below the icon */
+  }
+  
+  .social-icon span {
+    display: block; /* Makes the span element a block for proper spacing */
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-weight: 400; /* Sets a normal font weight */
+    font-size: 1rem; /* Adjusts the font size */
+  }
+  
