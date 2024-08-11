@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-// import Projects from './components/Projects';
-import GetInTouch from './components/GetInTouch';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+// import Projects from './components/Projects/';
+import GetInTouch from './components/GetInTouch/GetInTouch';
+import Footer from './components/Footer/Footer';
 import './App.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
