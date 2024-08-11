@@ -36,7 +36,7 @@ const Navbar = () => {
         <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="#home" onClick={toggleMenu}>Home</a></li>
           <li><a href="#about" onClick={toggleMenu}>About</a></li>
-          <li><a href="my-Portfolio/public/My_Resume.pdf" download="My_Resume.pdf" className="resume-button" onClick={toggleMenu}>Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1lCKg5OT0OBNsou4iezBYfZHyAjl-phPT/view?usp=drive_link" target="_blank" download="My_Resume.pdf" className="resume-button" onClick={toggleMenu}>Resume</a></li>
           <li><a href="#getintouch" onClick={toggleMenu}>Get In Touch</a></li>
         </ul>
       </div>
