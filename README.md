@@ -49,7 +49,7 @@ The portfolio is deployed using GitHub Pages. Here’s how the deployment is man
      "deploy": "gh-pages -d build"
    }
    ```
-
+link: https://leju-b.github.io/my-Portfolio/
    Deploy the application:
    ```bash
    npm run deploy
