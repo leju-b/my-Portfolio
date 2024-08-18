@@ -48,7 +48,7 @@ const GetInTouch = () => {
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://medium.com/@iamleju02" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-medium"></i>
             <span>Medium</span>
           </a>

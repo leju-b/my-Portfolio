@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-// import Projects from './components/Projects/';
+import Projects from './components/Projects/Projects';
 import GetInTouch from './components/GetInTouch/GetInTouch';
 import Footer from './components/Footer/Footer';
 import './App.css'
@@ -23,7 +23,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       <GetInTouch />
       <Footer />
     </div>

@@ -61,12 +61,8 @@ section {
   background-color: rgb(249, 249, 249);
 }
 
-#projects {
-  background-color: #ccc;
-}
-
 #getintouch {
-  background-color: white;
+  background-color: rgb(249, 249, 249);
 }
 
 /* Mobile-specific styles */
