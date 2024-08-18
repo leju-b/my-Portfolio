@@ -27,7 +27,7 @@ const projectsData = [
     description: 'Deployed a React Vite application on an AWS EC2 instance using NGINX as a reverse proxy.',
     githubLink: 'https://github.com/leju-b/AirBnb-Clone-deployed-EC2',
     image: project3Image,
-    // category: 'devops'
+    category: 'devops'
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projectsData = [
     description: 'Built and deployed a static travel journal application using React, HTML, and CSS, with automated deployment via AWS Amplify.',
     githubLink: 'https://github.com/leju-b/Travel-Journal-deploy-amplify',
     image: project5Image,
-    category: ['devops','webdevelopment']
+    category: 'devops'
   }
 //   // Add more projects as needed
 ];
